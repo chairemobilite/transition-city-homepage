@@ -1,0 +1,200 @@
+
+html, body {
+ margin: 0; padding: 0;
+}
+
+body {
+  min-width: 1200px;
+}
+
+* {
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.0em;
+}
+
+h1, h2, h3 {
+  font-family: "museo-slab", serif;
+}
+
+.hide { display: none; }
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.top_menu {
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  margin: 20px;
+  float: right;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+.top_menu li {
+  display: inline;
+  padding: 0 20px;
+}
+
+a { 
+  color: rgba(47, 102, 172, 0.8);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(47, 102, 172, 1.0);
+  text-decoration: none;
+
+}
+
+section { 
+  clear: both;
+  margin: 0;
+  padding: 3em;
+  position: relative;
+}
+
+section.left {
+  padding-right: 40%;
+}
+
+section.right {
+  padding-left: 40%;
+  text-align: right;
+}
+
+section.full {
+
+}
+
+section#evolution {
+  padding-right: 40%;
+  background: url("images/bg_dna.jpg") right top no-repeat #0a0f12;
+  color: rgba(255,255,255,1.0);
+}
+
+section#modular {
+  color: rgba(255,255,255,1.0);
+  background: url("images/bg_puzzle.jpg") right -200px top no-repeat #547ca0;
+}
+
+section#intro {
+  /*min-height: 500px;*/ /*margin:0; box-sizing: border-box;*/
+  /*background: url("images/tram_door_behind.png") no-repeat #0D3B66;*/
+  /*background-position: right 200px top 0;*/
+  /*width: 100%;*/
+  /*overflow: hidden;*/
+}
+
+section#open {
+  background: url("images/bg_key.jpg") top left no-repeat #374a68;
+}
+
+section#partners {
+  text-align: center;
+  list-style: none;
+}
+
+section#partners li {
+  list-style-type: none;
+}
+
+p {
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+p.more {
+  font-size: 2em;
+}
+
+p.more:hover {
+  cursor: pointer;
+}
+
+p.pitch { 
+  font-family: "museo-slab", serif;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.tram_door {
+  background-color: #666;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+}
+
+.tram_door.left {
+  width: 276px;
+  height: 500px;
+  right: 476px;
+  background: url("images/tram_door_left.png") no-repeat;
+  background-size: 100% ;
+}
+
+.tram_door.right {
+  width: 276px;
+  height: 500px;
+  right: 200px;
+  background: url("images/tram_door_right.png") no-repeat;
+  background-size: 100% ;
+}
+
+.dark_background_colored {
+  color: rgba(184, 210, 235, 1.0);
+}
+
+.light_background_colored {
+  color: rgba(47, 102, 172, 1.0);
+}
+
+strong {
+  font-weight: 500 !important;
+}
+
+p.description {
+  font-family: "museo-sans", sans-serif;
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
+section.light {
+  color: rgba(0,0,0,0.8);
+  background-color: #E9EFF7;
+}
+
+p.light { 
+  background-color: #E9EFF7;
+}
+
+section.dark {
+  color: rgba(255,255,255,1.0);
+  background-color: #0D3B66;
+}
+
+.center { text-align: center; }
+
+section.medium {
+  color: rgba(255,255,255,1.0);
+  background-color: #466FAA;
+}
+
+p.dark {
+  background-color: #0D3B66;
+}
+
+em, .em {
+  font-family: "museo-sans", sans-serif;
+  font-style: oblique;
+}
+
